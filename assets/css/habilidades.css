@@ -1,0 +1,121 @@
+.habilidades-pd {
+    padding-top: 93px; 
+}
+
+.habilidades-pd h2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.skills-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.conteiner-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.skill-box:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.conteiner-descricao {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+@media (max-width:1200px) {
+
+    .conteiner-descricao {
+        height: 260px;
+    }
+
+    #habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        /* width: 535px; */
+        margin: 0 auto;
+        gap: 50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .skills-descricao p {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:950px) {
+    .conteiner-skills {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .conteiner-descricao {
+        max-width: 300px;
+    }
+
+}
+
+.skill-box .icones-habilidades {
+    transition: ease-in-out 0.3s;
+}
+
+.skill-box:hover .icones-habilidades {
+    opacity: 0;
+}
+
+.skill1 {
+    background-image: url(../img/html2.svg);
+}
+
+.skill2 {
+    background-image: url(../img/css2.svg);
+}
+
+.skill3 {
+    background-image: url(../img/js2.svg);
+}
+
+.skill4 {
+    background-image: url(../img/java2.svg);
+}
+
+
+#fundo {
+    fill: red;
+}

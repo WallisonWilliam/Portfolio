@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+}
+
+.footer {
+    width: 100%;
+    padding:20px;
+    background: linear-gradient(252.44deg, #294369 0%, #0B0D22 100%);
+}
+
+.footer-conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-creditos {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width:1200px) {
+    .contato-creditos {
+        text-align: center;
+    }
+
+    .footer-conteiner {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+}
+
+.links1,
+.links2 {
+    height: 52px;
+    width: 52px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.links:hover {
+    transform: rotate(-360deg);
+}
+
+.links1 {
+    background-image: url(../img/githubff2.svg);
+}
+
+.links2 {
+    background-image: url(../img/linkedinff2.svg);
+}
+
+.transparente {
+    transition: ease-in-out 0.3s;
+}
+
+.transparente:hover {
+    opacity: 0;
+}

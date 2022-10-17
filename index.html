@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Portfólio | Wallison William</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://media-exp1.licdn.com/dms/image/C4D03AQGyxF2kxeKEAQ/profile-displayphoto-shrink_200_200/0/1654194461727?e=2147483647&v=beta&t=L1cGujJBiCycAc_ufERB_6R1Lo5wqdCXWeEnxwUhCZA" />
+  <link rel="stylesheet" href="/assets/css/navegacao-inicio.css" />
+  <link rel="stylesheet" href="/assets/css/sobre-mim.css" />
+  <link rel="stylesheet" href="/assets/css/projetos.css" />
+  <link rel="stylesheet" href="/assets/css/habilidades.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+</head>
+
+<body onload="typeWriter(fName);">
+  <div>
+    <!-- menu -->
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <div class="barra">
+      <div class="menu-centro">
+        <div class="barra-conteiner centralizador">
+          <div class="logo esquerda">
+            <a href="index.html">
+              <h1>Wallison William</h1>
+            </a>
+          </div>
+          <nav class="direita">
+            <ul onclick="getElementById('close-menu').checked=false;">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- primeira tela -->
+
+    <section id="inicio">
+      <div class="altura-ajuste">
+        <div class="inicio centralizador">
+          <div class="ajustador organizador">
+            <div class="apresentacao">
+              <div class="imagem-principal">
+                <img class="imagem-redonda"
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQGyxF2kxeKEAQ/profile-displayphoto-shrink_200_200/0/1654194461727?e=2147483647&v=beta&t=L1cGujJBiCycAc_ufERB_6R1Lo5wqdCXWeEnxwUhCZA"
+                  alt="avatar" />
+              </div>
+              <p class="descricao">
+                Oi, eu sou <br />
+                <span style="display: inline" class="meu-nome">Wallison William.</span>
+                <br />
+                Desenvolvedor Front-end
+              </p>
+              <br />
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/in/wallisonwilliam/" target="_blank" class="link">Linkedin</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sobre mim -->
+    <section id="sobre-mim">
+      <div class="centralizador">
+        <div class="eu">
+          <div class="linha-horizontal"></div>
+          <h2>Sobre mim</h2>
+          <br />
+          Meu nome é Wallison William, tenho 20 anos, curso Ciência da Computação pela Universidade Católica de
+          Pernambuco(UNICAP). Desde pequeno, sempre gostei muito de jogar,
+          por isso acabei desenvolvendo esse interesse na área da tecnologia, sendo assim decidi trilhar o caminho da
+          programação.
+          Utilizei java para grande parte dos projetos da faculdade. Atualmente estou focando nas tecnologias voltadas
+          ao FrontEnd,
+          onde pretendo me desenvolver cada vez mais e aprender novas tecnológias como React.
+          </p>
+          <br />
+          Hoje já entendo tecnologias como Java, JavaScript, Mysql, etc.
+          </p>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos">
+
+    <div class="centralizador projetos">
+      <div class="linha-horizontal"></div>
+      <h2 class="project">Projetos</h2>
+
+      <div class="repos-section">
+        <ul id="repos">
+        </ul>
+      </div>
+
+    </div>
+    <!--
+          <div class="projetos-itens">
+            <div class="pro">
+              <div class="breve"><p>ProgramacaoWebMobile</p></div>
+            </div>
+            </div>
+            <div class="pro">
+              <div class="breve"><p>EM BREVE</p></div>
+            </div>
+            <div class="pro escondido">
+              <div class="breve"><p>EM BREVE</p></div>
+            </div>
+            <div class="pro escondido">
+              <div class="breve"><p>EM BREVE</p></div>
+            </div>
+            <div class="pro escondido">
+              <div class="breve"><p>EM BREVE</p></div>
+            </div>
+    </div>
+    -->
+
+    <div class="github-link">
+      <button>Ver mais</button>
+      <a href="https://github.com/WallisonWilliam?tab=repositories" target="_blank">Repositórios no github</a>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <div class="centralizador">
+      <div class="habilidades-pd">
+        <div class="linha-horizontal"></div>
+        <h2 class="project">Habilidades</h2>
+        <div class="skills-descricao">
+          <div class="conteiner-skills">
+            <div class="skill-box skill1 html-skill">
+              <img class="icones-habilidades" src="/assets/img/html2.svg" alt="html-icon" />
+            </div>
+            <div class="skill-box skill2 css-skill">
+              <img class="icones-habilidades" src="/assets/img/css2.svg" alt="css-icon" />
+            </div>
+            <div class="skill-box skill3 js-skill">
+              <img class="icones-habilidades" src="/assets/img/js2.svg" alt="js-icon" />
+            </div>
+
+            <div class="skill-box skill4">
+              <img class="icones-habilidades" src="/assets/img/java2.svg" alt="java-icon" />
+            </div>
+          </div>
+          <div class="conteiner-descricao">
+            <p class="texto-descricao">
+              Passe o mouse por cima de alguma habilidade para ler a
+              descrição
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-conteiner">
+      <div class="contato-creditos">
+        E-mail para contato: wallisonwilliamm@gmail.com <br />
+        &copy Wallison William <br />
+      </div>
+      <div class="icons">
+        <div class="links links1">
+          <a href="https://github.com/wallisonwilliam" target="_blank">
+            <img class="transparente" src="/assets/img/githubff.svg" alt="github-icon" />
+          </a>
+        </div>
+        <div class="links links2">
+          <a href="https://www.linkedin.com/in/wallisonwilliam/" target="_blank">
+            <img class="transparente" src="/assets/img/linkedinff.svg" alt="github-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="./assets/js/scroll.js"></script>
+  <script src="./assets/js/maquina_escrever.js"></script>
+  <script src="./assets/js/habilidades.js"></script>
+  <script src="./assets/js/repositorios.js"></script>
+
+</body>
+
+</html>

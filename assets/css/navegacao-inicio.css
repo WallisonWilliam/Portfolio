@@ -1,0 +1,334 @@
+/* criando barra de navegação */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 15.2061px;
+    transition: ease-in-out 0.3s;
+}
+
+a:hover {
+    color: rgb(208, 255, 0);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logo {
+    padding: 26px 0;
+}
+
+.barra {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+}
+
+.barra-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* barra de navegação terminada */
+
+/* criando início */
+.imagem-principal {
+    margin-top: 110px;
+}
+
+.imagem-redonda {
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 30px auto 30px auto;
+    transition: ease 1s;
+}
+
+.imagem-redonda img {
+    position: absolute;
+    width: 100%;
+
+}
+
+.imagem-redonda:hover {
+    transform: scale(1.05);
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    height:100vh;
+}
+
+.altura-ajuste {
+    width: 100%;
+}
+
+.ajustador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.apresentacao {
+    margin: 0 auto;
+    max-width: 741px;
+    color: white;
+}
+
+.descricao {
+    font-size: 25px;
+    grid-area: descricao;
+}
+
+.meu-nome {
+    font-size: 50px;
+    ;
+}
+
+.linkedin {
+    width: 479px;
+    height: 85px;
+    background: linear-gradient(252.44deg, #ffffff 0%, #999aa7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+}
+
+.linkedin a {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.link {
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+    padding: 12px 0;
+    transition: ease-in-out 0.3s;
+}
+
+.link:hover {
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+.close-menu {
+    display: none;
+}
+
+.meu-nome::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width:1200px) {
+
+    #inicio {
+        height: auto;
+    }
+
+    .ajustador {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .linkedin {
+        width: 479px;
+        margin-top: 15px;
+    }
+
+    .esquerda {
+        margin-left: 15px;
+    }
+
+    .direita {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width:950px) {
+    .altura-ajuste {
+        display: flex;
+        justify-content: center;
+    }
+
+    .organizador {
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas:
+            "descricao";
+        line-height: 35px;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .meu-nome {
+        font-size: 30px;
+    }
+
+    .esquerda,
+    .direita {
+        margin: 0;
+    }
+
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .barra {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-centro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centralizador {
+        margin: 0;
+    }
+
+    .barra-conteiner {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .barra-conteiner .logo {
+        width: 100%
+    }
+
+    .direita ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .direita ul a {
+        font-size: 35px;
+    }
+
+    /* configurando menu mobile */
+    .barra {
+        display: block;
+        position: fixed;
+        top: -100vh;
+        transition: ease 0.3s;
+    }
+
+    .close-menu-label::after {
+        content: '≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        background: #213553;
+        color: white;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* ✕ */
+    .close-menu:checked~.barra {
+        top: 0;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: '✕';
+    }
+
+    .barra .barra-conteiner ul li a {
+        font-size: 25px;
+    }
+
+    .barra {
+        background: rgba(0, 0, 0, 0.527);
+    }
+
+}

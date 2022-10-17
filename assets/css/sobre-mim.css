@@ -1,0 +1,90 @@
+#sobre-mim {
+    width: 100%;
+    padding:150px
+}
+
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-align:center;
+    color: white;
+}
+
+.circulo {
+    position: absolute;
+}
+
+
+
+
+
+@keyframes html {
+    0% {
+        bottom: 0;
+        left: 250px;
+    }
+    100% {
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+        bottom: 0;
+        left: 50px;
+    }
+    100% {
+        bottom: 0;
+        left: 250px;
+    }
+}
+
+.eu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-indent: 30px;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+}
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+    .eu {
+        text-indent: 0;
+    }
+}
+
+@media(max-width:950px){
+
+    .circulo {
+        display: none;
+    }
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    .avatar {
+        margin-right: 0;
+    }
+
+}
+    
