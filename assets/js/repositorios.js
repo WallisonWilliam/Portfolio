@@ -21,7 +21,6 @@ function gerarListaRepos() {
             <h2>${repos[i].name}</h2>
             <p>${repos[i].description}</p>
             <p>${repos[i].language}</p>
-            <p>⭐ ${repos[i].stargazers_count}</p>
           `;
         li.onclick = (event) => {
             window.open(repos[i].html_url);
