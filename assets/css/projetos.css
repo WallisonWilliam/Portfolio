@@ -95,6 +95,10 @@ button:hover {
     align-items: center;
     gap: 35px;
 }
+
+#github-a:hover{
+    color:white;
+}
 /*
 .projetos a {
     display: inline;

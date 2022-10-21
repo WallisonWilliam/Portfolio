@@ -5,7 +5,7 @@ const listaRepos = document.getElementById("repos");
 
 function gerarListaRepos() {
     listaRepos.innerHTML = "";
-    for (let i = 0; i < repos.length; ++i) {
+    for (let i = 0; i < 4; ++i) {
         const li = document.createElement("li");
         li.classList.add("repos-item");
         console.log(repos[i].language);
