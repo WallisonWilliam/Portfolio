@@ -66,9 +66,11 @@ h2 {
 
     .ajustador-2 p {
         font-size: 15px;
+      
     }
     .eu {
         text-indent: 0;
+      
     }
 }
 
@@ -88,3 +90,26 @@ h2 {
 
 }
     
+@media (max-width:375px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+      
+    }
+    .eu {
+        text-indent: 0;
+      
+    }
+}

@@ -57,8 +57,7 @@ h4{
 
 }
 
-.links1,
-.links2, .links3 {
+.links1,.links2, .links3 {
     height: 40px;
     width: 40px;
     background-size: contain;
@@ -68,26 +67,7 @@ h4{
     transition: 0.7s;
 }
 
-.links:hover {
-    color: rgb(208, 255, 0);
-}
-
-.links1 {
-    background-image: url(../img/github2.png);
-}
-
-.links2 {
-    background-image: url(../img/linkedin.png);
-}
-
-.links3 {
-    background-image: url(../img/instagram.png);
-}
-
-.transparente {
-    transition: ease-in-out 0.3s;
-}
-
-.transparente:hover {
-    opacity: 0;
+.copy{
+    color:white;
+    margin-right:80px;
 }
