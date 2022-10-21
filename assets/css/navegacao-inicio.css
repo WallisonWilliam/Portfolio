@@ -331,4 +331,11 @@ img {
         background: rgba(0, 0, 0, 0.527);
     }
 
+    @media (max-width:375px) {
+
+        .apresentacao{
+            width:100%
+        }
+
+    }
 }
