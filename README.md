@@ -1,11 +1,5 @@
 <h1 align="center">Portfolio</h1>
 
-<h3 align="center">Meu Portofolio</h3>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 ## ✨ Tecnologias
