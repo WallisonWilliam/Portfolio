@@ -7,20 +7,12 @@
     padding-bottom: 70px;
 }
 
-.skills-descricao {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 50px;
-    padding-bottom: 70px;
-}
-
 .conteiner-skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 55%;
+    padding-bottom: 70px;
 }
 
 .skill-box {
