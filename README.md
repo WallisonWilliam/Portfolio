@@ -12,4 +12,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Essa é um projeto que foi criado para falar um pouco sobre mim e mostrar os projetos disponibilizados no github.
+Essa é um projeto que foi criado para falar um pouco sobre mim e mostrar os projetos disponibilizados no github, ainda sujeito a mudanças, principalmente de responsividade.
