@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .habilidades-pd {
     padding-top: 93px;
 }

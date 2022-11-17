@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #sobre-mim {
     width: 100%;
     padding: 150px

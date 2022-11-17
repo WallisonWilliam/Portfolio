@@ -1,5 +1,4 @@
 window.sr = ScrollReveal({ reset: true });
-ScrollReveal({ distance: '30px' });
 sr.reveal('.imagem-principal', { duration: 3000, origin: 'right' })
 sr.reveal('.descricao', { duration: 3000, origin: 'left' })
 sr.reveal('.linkedin', { duration: 3000, origin: 'left' })

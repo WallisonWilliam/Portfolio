@@ -1,14 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(252.44deg, #294369 0%, #0B0D22 100%);
 
 }
 
-
 #projetos {
     padding-top: 20px;
 }
 
-.projetos h2, a {
+.projetos h2,
+a {
     text-align: center;
 }
 
@@ -26,7 +30,7 @@ body {
 }
 
 #repos li {
-    width: 500px;
+    width: 32em;
 }
 
 
@@ -95,12 +99,12 @@ button:hover {
     gap: 35px;
 }
 
-#github-a:hover{
-    color:white;
+#github-a:hover {
+    color: white;
 }
 
 @media (max-width:1200px) {
-  
+
 
     #projetos {
         display: flex;
@@ -112,17 +116,13 @@ button:hover {
     .projetos-itens {
         flex-direction: column;
     }
-    
-@media (max-width:375px) {
-    #repos li {
-        width: 90%;
+
+    @media (max-width:375px) {
+
+        .projetos-itens {
+            flex-direction: column;
+
+
+        }
     }
-    
-
-    .projetos-itens {
-        flex-direction: column;
-    
-
-}
-}
 }
