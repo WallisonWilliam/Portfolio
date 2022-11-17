@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -81,7 +85,7 @@ img {
 #inicio {
     display: flex;
     align-items: center;
-    height:100vh;
+    height: 100vh;
 }
 
 .altura-ajuste {
@@ -108,13 +112,12 @@ img {
 
 .meu-nome {
     font-size: 50px;
-    
+
 }
 
 .linkedin {
-    width: 479px;
     height: 85px;
-    background: linear-gradient(252.44deg, #ffffff 0%, #999aa7 100%);
+    background: rgb(44, 69, 107);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +127,7 @@ img {
 .linkedin a {
     width: 100%;
     padding: 25px 0;
+
 }
 
 .link {
@@ -164,41 +168,7 @@ img {
     }
 }
 
-@media (max-width:1200px) {
 
-    #inicio {
-        height: auto;
-    }
-
-    .ajustador {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: center;
-        padding-bottom: 50px;
-    }
-
-    .apresentacao {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .linkedin {
-        width: 479px;
-        margin-top: 15px;
-    }
-
-    .esquerda {
-        margin-left: 15px;
-    }
-
-    .direita {
-        margin-right: 15px;
-    }
-
-}
 
 @media (max-width:950px) {
     .altura-ajuste {
@@ -329,8 +299,8 @@ img {
 
     @media (max-width:375px) {
 
-        .apresentacao{
-            width:100%
+        .apresentacao {
+            width: 100%
         }
 
     }

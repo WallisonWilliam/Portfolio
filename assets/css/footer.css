@@ -11,14 +11,14 @@
 
 .footer {
     width: 100%;
-    background: linear-gradient(252.44deg, #294369 0%, #0B0D22 100%);
+    border-top:1px solid rgba(255, 255, 255, 0.50);
 }
 
 .footer-conteiner {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding:20px;
+    padding: 20px;
 }
 
 .contato-creditos {
@@ -28,13 +28,13 @@
     padding: 10px 0;
 }
 
-.social{
-    text-align:center;
-    color:white;
+.social {
+    text-align: center;
+    color: white;
 }
 
-h4{
-    margin-bottom:10px;
+h4 {
+    margin-bottom: 10px;
 }
 
 .icons {
@@ -42,7 +42,9 @@ h4{
     gap: 25px;
 }
 
-.links1,.links2, .links3 {
+.links1,
+.links2,
+.links3 {
     height: 40px;
     width: 40px;
     background-size: contain;
@@ -52,9 +54,9 @@ h4{
     transition: 0.7s;
 }
 
-.copy{
-    color:white;
-    margin-right:80px;
+.copy {
+    color: white;
+    margin-right: 80px;
 }
 
 @media (max-width:1200px) {
