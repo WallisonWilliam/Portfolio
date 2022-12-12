@@ -115,20 +115,7 @@ img {
 
 }
 
-.linkedin {
-    height: 85px;
-    background: rgb(44, 69, 107);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 62px;
-}
 
-.linkedin a {
-    width: 100%;
-    padding: 25px 0;
-
-}
 
 .link {
     font-size: 25px;
@@ -155,20 +142,6 @@ img {
     opacity: 1;
     animation: pisca .7s infinite;
 }
-
-@keyframes pisca {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-}
-
-
 
 @media (max-width:950px) {
     .altura-ajuste {

@@ -1,7 +1,7 @@
 const url = "https://api.github.com/users/wallisonwilliam/repos";
 let repos = [];
 
-const listaRepos = document.getElementById("repos");
+const listaRepos = document.querySelector("#repos");
 
 function gerarListaRepos() {
     listaRepos.innerHTML = "";
@@ -22,7 +22,7 @@ function gerarListaRepos() {
             <p>${repos[i].description}</p>
             <p>${repos[i].language}</p>
           `;
-        li.onclick = (event) => {
+        li.onclick = () => {
             window.open(repos[i].html_url);
         }
         listaRepos.appendChild(li);
